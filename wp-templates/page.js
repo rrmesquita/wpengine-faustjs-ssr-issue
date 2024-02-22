@@ -10,3 +10,14 @@ export default function Component(props) {
 //     __typename
 //   }
 // `
+
+// Multiple queries example (SSR not working)
+// Component.queries = [
+//   {
+//     query: gql`
+//       query Example {
+//         __typename
+//       }
+//     `
+//   }
+// ]
